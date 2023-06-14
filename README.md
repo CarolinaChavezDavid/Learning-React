@@ -46,6 +46,44 @@ const otherPerson = {...person"};
 ```
 Using the spread operator from Javascript, you will make a copy or clone of the object.
 
+#### Arrays
+functions: find, filter, map
+```
+const myArray = [1, 2, 3, 4];
+let array2 = [...myArray, 5];
+const array3 = array.map(function(number){
+ return number * 2;
+});
+```
+
+#### Functions
+```
+const greet = function(name){
+ return `Hola, ${name}`
+}
+```
+
+```
+const greet = (name) => {
+ return `Hola, ${name}`
+};
+
+const greet = (name) =>  `Hola, ${name}`;
+
+```
+
+#### Promises
+they are asyncronous
+```
+const promise = new Promise ((resolve, reject) => {
+ //http call
+ resolve( http call );
+})
+
+promise.then().catch;
+```
+
+```
 ### Useful commands
 
 ```
