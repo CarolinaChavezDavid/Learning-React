@@ -73,7 +73,7 @@ const greet = (name) =>  `Hola, ${name}`;
 ```
 
 #### Promises
-they are asyncronous
+they are asyncronous with **async** we can make a function to return a promise, with the async we may handle errors with try-catch
 ```
 const promise = new Promise ((resolve, reject) => {
  //http call
