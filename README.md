@@ -4,6 +4,16 @@
 
 Is a Library is declarative, predictible, efficient, works with components and helps to build small and large applications, works in the server side with node 
 
+### Tools to create React Apps
+* ⚛️ [Create React App](https://create-react-app.dev/)
+ ```
+ npx create-react-app my-app
+ ```
+* 🌩️ [Vite](https://vitejs.dev/)
+```
+ npm create vite@latest
+ npm run dev
+ ```
 ### JSX = JS + XML
 ```
 const h1Tag = <h1>Hola Mundo</h1>
@@ -13,6 +23,9 @@ const h1Tag = document.createElement('h1', null, `Hola, soy ${ nombre } );
 
 ### Javascript basics
 
+<details>
+ <summary>Javascript basics</summary>
+ 
 #### Variables
 ```
 const name = 'Carolina';  // if the value is naver changed
@@ -82,8 +95,18 @@ const promise = new Promise ((resolve, reject) => {
 
 promise.then().catch;
 ```
+</details>
 
-```
+### Components
+Components are small pieces of code encapsulated and reusable that could or could not have states. An state could how the information of a component could be in certain moment
+
+#### Props, comunication between components
+
+### Hooks
+
+### Testing
+We can test React application with [JEST](https://jestjs.io/)
+
 ### Useful commands
 
 ```
