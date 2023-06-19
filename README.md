@@ -113,3 +113,7 @@ We can test React application with [JEST](https://jestjs.io/)
 npm start
 ```
 start react project
+
+###  Deploy
+[Netify](https://www.netlify.com/)
+Front-end application deployment
