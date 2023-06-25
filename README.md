@@ -13,6 +13,8 @@ Is a Library is declarative, predictible, efficient, works with components and h
 ```
  npm create vite@latest
  npm run dev
+
+yarn create vite
  ```
 ### JSX = JS + XML
 ```
