@@ -88,7 +88,7 @@ const greet = (name) =>  `Hola, ${name}`;
 ```
 
 #### Promises
-they are asyncronous with **async** we can make a function to return a promise, with the async we may handle errors with try-catch
+they are asyncronous with **async** we can make a function to return a promise, and with the async, we may handle errors with try-catch
 ```
 const promise = new Promise ((resolve, reject) => {
  //http call
@@ -100,14 +100,15 @@ promise.then().catch;
 </details>
 
 ### Components
-Components are small pieces of code encapsulated and reusable that could or could not have states. An state could how the information of a component could be in certain moment
+Components are small pieces of code that are encapsulated, reusable and could or could not have states. An state could how the information of a component could be in certain moment
 
-#### Props, comunication between components
+#### Props, communication between components
 
 ### Hooks
+ * **Use Effect** Lets you perform side effects in function components
 
 ### Testing
-We can test React application with [JEST](https://jestjs.io/)
+We can test React applications with [JEST](https://jestjs.io/)
 
 ### Useful commands
 
@@ -119,3 +120,12 @@ start react project
 ###  Deploy
 [Netify](https://www.netlify.com/)
 Front-end application deployment
+
+### Redux
+Redux -> Design pattern based on reducer to manage the state
+Redux Toolkit -> A set of tools to easly implement Redux in a project
+it's an open source library from JavaScript. It's a Predictable State Container for JS Apps
+
+* **Thunks** action with asynchronous that excecutes another action
+
+![image](https://github.com/CarolinaChavezDavid/Learning-React/assets/77591347/da819d28-3a31-46c7-8d5c-5c1cd8784930)
