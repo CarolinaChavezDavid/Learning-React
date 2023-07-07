@@ -1,6 +1,4 @@
-# Learning-React
-
-<img width="1176" alt="image" src="https://github.com/CarolinaChavezDavid/Learning-React/assets/77591347/5d8c2932-ec74-4e8a-9430-b93278e8f4af">
+#  <img width="30" alt="image" src="https://github.com/CarolinaChavezDavid/Learning-React/assets/77591347/becc2183-7fa6-4928-983a-a29c6b0989b1"> Learning-React
 
 Is a Library is declarative, predictible, efficient, works with components and helps to build small and large applications, works in the server side with node 
 
@@ -107,8 +105,12 @@ Components are small pieces of code that are encapsulated, reusable and could or
 #### Props, communication between components
 
 ### Hooks
- * **Use Effect** Lets you perform side effects in function components
+ * **useEffect** Lets you perform side effects in function components
+ * **useReducer** An alternative to useState. Accepts a type reducer ```(state, action) => newState``` and returns the current state paired with a method ```dispatch``` (action object).
+ * **Thunks** The word "thunk" is a programming term that means "a piece of code that does some delayed work". Rather than execute some logic now, we can write a function body or code that can be used to perform the work later.
 
+> ℹ️ Components with many status updates distributed through various event handlers can be overwhelming. For these cases, you can consolidate all the state update logic outside of the component into a single function, called reducer.
+   
 ### Testing
 We can test React applications with [JEST](https://jestjs.io/)
 
